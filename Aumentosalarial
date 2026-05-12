@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main ()
+{
+  float s=0, a=0, f=0;
+  printf ("Bienvenido al programa que mostrará el aumento de sueldo correspondiente\n");
+  printf ("Introduzca el sueldo actual del empleado\n");
+  scanf ("%f", &s);
+  if (1000>s)
+  {
+    a=0.12*s;
+  }
+  else
+  {
+    a=0.15*s;
+  }
+  f=a+s;
+  printf ("El salario final del empleado es:\n");
+  printf ("%f \n", f);
+  return 0;
+}
+
