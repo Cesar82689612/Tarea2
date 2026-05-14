@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main ()
+{
+int v, sum=0, cont;
+printf ("Bievenido al programa que muestra la suma de pares que se encuentran de 10 a 50\n");
+printf ("Escribe cualquier cosa para comenzar\n");
+scanf ("%lf", &v);
+printf ("\n \n");
+for  (cont=10; cont<=50; cont+=2)
+{
+sum=sum+cont;
+printf ("%d\n", sum);
+}
+return 0;
+}
