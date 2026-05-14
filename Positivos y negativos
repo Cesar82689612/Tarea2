@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main ()
+{
+int v1, cont;
+printf ("Introduce 100 numeros y el programa te dira si\n");
+printf ("es positivo, negativo o nulo\n");
+for (cont=0; cont<100; cont ++)
+{
+scanf ("%d", &v1);
+printf ("%d", v1);
+if (v1>0) 
+{
+printf (" -Postivo\n");
+}
+else
+if (v1<0)
+{
+printf (" -Negativo\n");
+}
+else 
+{
+printf (" -Nulo\n");
+}
+}
+return 0;
+}
