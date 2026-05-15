@@ -11,5 +11,5 @@ int main ()
   }
   f= d-m;
   printf ("El total a pagar es: %lf \n", f);
-return 0;
+  return 0;
 }
