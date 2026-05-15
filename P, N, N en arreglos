@@ -10,7 +10,7 @@ int main ()
     { 
         scanf("%d", &arr[indice]); 
     }
-     ap=arr
+     ap=arr;
     for (indice=0; indice<10; indice++)
     {
       if (*ap>0)
