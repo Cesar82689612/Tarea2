@@ -17,7 +17,11 @@ int main ()
     }
   }
   total=precio-des;
-  printf ("El total a pagar es de\n");
-  printf ("%f", total);
+  printf ("El precio es de");
+  printf (" %f pesos\n", precio);
+  printf ("El descuento es de");
+  printf (" %f pesos\n", des);
+  printf ("El total a pagar es de");
+  printf (" %f pesos\n", total);
   return 0;
 }
