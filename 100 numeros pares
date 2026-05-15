@@ -4,7 +4,7 @@ int main ()
 { 
     int arr[100]; 
     int indice, n=0;
-    printf("Introduce 10 numeros enteros:\n");
+    printf("Bienvenido al programa que arroja los primeros 100 números pares:\n");
     for (indice = 0; indice < 100; indice++)
     { 
         n=n+2;
