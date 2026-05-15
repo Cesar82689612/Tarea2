@@ -9,7 +9,7 @@ int main ()
   for  (cont=10; cont<=50; cont+=2)
   {
     sum=sum+cont;
-    printf ("%d\n", sum);
   }
+  printf ("la suma de números pares desde 10 hasta 50 es %d\n", sum);
   return 0;
 }
