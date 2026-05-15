@@ -1,35 +1,17 @@
 #include <stdio.h>
 int main ()
 {
-  //declaración de variables
-  int v1, v2, resultado, op=0;
+  int v1, v2, s, r, m;
   printf ("Bienvenido al programa que realiza Suma, Resta y Multiplicación\n");
-  printf ("Escoje la opción deseada\n");
-  printf ("1.-Suma\n");
-  printf("2.-Resta\n");
-  printf("3.-Multiplicación\n");
-  scanf ("%d",&op);
   printf ("Por favor inserte 1 número\n");
   scanf("%d", &v1);
   printf ("Inserte el otro número\n");
-  scanf( "%d", &v2);
-  switch (op)
-  {
-    default:
-    printf ("Opción no válida\n");
-    break;
-    case 1:  
-    resultado= v1+v2;
-    printf ("La suma es: %d", resultado);
-    break;
-    case 2:
-    resultado= v1-v2;
-    printf ("La resta es: %d", resultado);
-    break;
-    case 3:
-    resultado= v1*v2;
-    printf ("La multiplicación es: %d", resultado);
-    break;
-  }    
-return 0;
+  scanf( "%d", &v2); 
+  s= v1+v2;
+  printf ("\nLa suma es: %d\n", s);
+  r= v1-v2;
+  printf ("La resta es: %d\n", r);
+  m= v1*v2;
+  printf ("La multiplicación es: %d\n", m);   
+  return 0;
 }
