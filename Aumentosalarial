@@ -5,7 +5,7 @@ int main ()
   printf ("Bienvenido al programa que mostrará el aumento de sueldo correspondiente\n");
   printf ("Introduzca el sueldo actual del empleado\n");
   scanf ("%f", &s);
-  if (1000>s)
+  if (s>=1000)
   {
     a=0.12*s;
   }
