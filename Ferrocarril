@@ -7,7 +7,7 @@ int main ()
   printf ("Introduzca el numero de dias de su estancia\n");
   scanf ( "%d", &d);
   printf ("Introduza la distancia de su destino en kilometros\n");
-  scanf ( "%f", dis);
+  scanf ( "%f", &dis);
   precio= 0.23*dis;
   if (d>7) 
   { 
@@ -17,7 +17,7 @@ int main ()
     }
   }
   total=precio-des;
-  printf ("El tota a pagar es de\n");
+  printf ("El total a pagar es de\n");
   printf ("%f", total);
   return 0;
 }
