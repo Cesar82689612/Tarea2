@@ -10,16 +10,16 @@ int main ()
     printf ("%d", v1);
     if (v1>0) 
     {
-      printf (" -Postivo\n");
+      printf (" es Postivo\n");
     }
     else
     if (v1<0)
     {
-      printf (" -Negativo\n");
+      printf (" es Negativo\n");
     }
     else 
     {
-      printf (" -Nulo\n");
+      printf (" es Nulo\n");
     }
   }
   return 0;
